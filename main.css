@@ -1,0 +1,1125 @@
+body{
+    margin: 0;
+    font-family: 'Larsseit',sans-serif;
+    font-size: 14px;
+    color:#22356F;
+    overflow-x: hidden;
+    
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    
+    
+}
+
+.container{
+    max-width: 1261px;
+    margin: 0 auto;
+    background: #F4F9E2;
+    
+}
+
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #62D0DF;
+    margin-top: 33px;
+}
+
+.nav{
+    font-size: 14px;
+    text-align: center;
+       
+    
+}
+
+.nav a{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 27px;
+    position: relative;
+    color:#22356F;
+    text-decoration: none;
+    transition: all .2s linear;
+    padding-bottom: 14px;
+ }
+
+ .nav a:hover{
+    border-bottom: 1px solid #22356F;
+ }
+
+.nav .button{
+    border-radius: 50px;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 1159px;
+    top: 47px;
+    background: #62D0DF;
+    line-height: 16px;
+    align-items: center;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+}
+
+.nav .button:hover{
+    background: #5ec8d6;
+    transition: all 0.5s ease;
+}
+
+.logo-text{
+    font-size: 24px;
+    font-weight: bold;
+    color: #62D0DF;
+    margin-top: 197px;
+}
+
+.intro h1{
+    font-size: 48px;
+    line-height: 55px;
+}
+
+.intro p{
+    margin-top: 60px;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.intro .button-1{
+    padding: 10px 30px 11px 30px;
+    background: #F9B640;
+    color: #fff;
+    font-weight: bold;
+    line-height: 23px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: 'Larsseit',sans-serif;
+    margin-bottom: 80px;
+}
+
+.intro .button-1:hover{
+    background:#f7b037;
+    transition: all 0.5s ease;
+    color: #f4f7ec;
+}
+
+.intro .button-2{
+    padding: 16px 22px 11px 30px;
+    background: #fff;
+    color: #F9B640;
+    font-weight: bold;
+    line-height: 23px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: 'Larsseit',sans-serif;
+}
+
+.intro .Group{
+    position:absolute;
+    width: 700px;
+    height: 720px;
+    left: 740px;
+    top: 0px;
+}
+
+.container-1{
+        max-width: 1261px;
+        margin: 0 auto;
+        background:#62D0DF;
+        height: 604px;
+    }
+
+.article{
+    background: #62D0DF;
+}
+
+
+
+
+.article h1{
+    padding-top: 151px;
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    
+}
+
+.article p{
+    width: 555px;
+    height: 235px;
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 92px;
+    color: #FFFFFF;
+    padding-top: 90px;
+    
+}
+
+.article p span{
+    font-family: 'Larsseit';
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+.article p .text{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.photo{
+    position: absolute;
+    left: 915px;
+    top: 773px;
+}
+
+.about_us{
+    height: 361px;
+    background: #fff;
+    width: 100%;
+    font-family: 'Larsseit',sans-serif;
+    font-size: 16px;
+    color:#22356F;
+}
+
+.about_us h4 {
+    position: absolute;
+    width: 93px;
+    height: 210px;
+    left: 106px;
+    top: 1602px;
+    font-weight: 400;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+}
+
+.about_us p{
+    position: absolute;
+    width: 592px;
+    height: 210px;
+    left: 424px;
+    top: 1596px;
+    font-weight:600;
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    color: #22356F;
+}
+
+.help{
+    height: 360px;
+}
+.help p{
+    position: absolute;
+    width: 201px;
+    height: 21px;
+    left: 620px;
+    top: 1870px;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+
+}
+
+.help .block{
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 0px;
+    top: 1927px;
+    background: #dbbbb7;
+}
+
+
+
+.help .block h1{
+    position: absolute;
+    width: 232px;
+    height: 54px;
+    left: 78px;
+    top: 80px;
+
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    
+    color: #fff;
+
+} 
+
+.block h1::before{
+    content:url(Ellipse.png);
+    position: absolute;
+    right:244px ;
+    bottom:30px
+}
+
+
+
+
+.help hr{
+    border: 1px solid #fff;
+    width: 270px;
+    margin-top: 70px;
+}
+
+.block-2 h1{
+    position: absolute;
+    width: 230px;
+    height: 54px;
+    left: 75px;
+    top: 79px;
+
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #fff;
+} 
+
+.block-2 h1::before{
+    content:url(Ellipse.png);
+    position: absolute;
+    right:244px ;
+    bottom:30px
+}
+
+
+.help .block-2 {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    top: 1927px;
+    left: 360px;
+    background:#C4E769;
+}
+
+.block-3 h1{
+    position: absolute;
+    width: 230px;
+    height: 54px;
+    left: 75px;
+    top: 79px;
+
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #fff;
+} 
+
+.block-3 h1::before{
+    content:url(Ellipse.png);
+    position: absolute;
+    right:244px ;
+    bottom:30px
+}
+
+
+.help .block-3 {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    top: 1927px;
+    left: 720px;
+    background:#62D0DF;
+}
+
+.block-4 h1{
+    position: absolute;
+    width: 230px;
+    height: 54px;
+    left: 75px;
+    top: 79px;
+
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #fff;
+} 
+
+.block-4 h1::before{
+    content:url(Ellipse.png);
+    position: absolute;
+    right:244px ;
+    bottom:30px
+}
+
+
+.help .block-4 {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    top: 1927px;
+    left: 1080px;
+    background:#0052C1;
+}
+
+.block-5 h1{
+    position: absolute;
+    width: 230px;
+    height: 54px;
+    left: 75px;
+    top: 79px;
+
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #fff;
+}
+
+.block-5 hr{
+    border: 1px solid #fff;
+    width: 377px;
+    margin-top: 70px;
+}
+
+.block-5 h1::before{
+    content:url(Ellipse.png);
+    position: absolute;
+    right:244px;
+    bottom:26px;
+}
+
+
+.help .block-5 {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    top: 2407px;
+    left: 0px;
+    background:#22356F;
+}
+
+
+
+.block-6 h1{
+    position: absolute;
+    width: 230px;
+    height: 54px;
+    left: 75px;
+    top: 79px;
+
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #fff;
+} 
+
+.block-6 hr{
+    border: 1px solid #fff;
+    width: 377px;
+    margin-top: 70px;
+}
+
+.block-6 h1::before{
+    content:url(Ellipse.png);
+    position: absolute;
+    right:244px;
+    bottom:26px;
+}
+
+
+.help .block-6 {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    top: 2407px;
+    left: 480px;
+    background:#0052C1;
+}
+
+.block-7 h1{
+    position: absolute;
+    width: 230px;
+    height: 54px;
+    left: 75px;
+    top: 79px;
+
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #fff;
+} 
+
+.block-7 hr{
+    border: 1px solid #fff;
+    width: 377px;
+    margin-top: 70px;
+}
+
+.block-7 h1::before{
+    content:url(Ellipse.png);
+    position: absolute;
+    right:244px;
+    bottom:26px;
+}
+
+
+.help .block-7 {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    top: 2407px;
+    left: 960px;
+    background:url(strawberry.png);
+}
+
+.block-8 h1{
+    position: absolute;
+    width: 230px;
+    height: 54px;
+    left: 75px;
+    top: 79px;
+
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #fff;
+} 
+
+.block-8 hr{
+    border: 1px solid #fff;
+    width: 377px;
+    margin-top: 70px;
+}
+
+.block-8 h1::before{
+    content:url(Ellipse.png);
+    position: absolute;
+    right:244px;
+    bottom:26px;
+}
+
+
+.help .block-8 {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    top: 2887px;
+    left: 0px;
+    background:#62D0DF;
+}
+
+.block-9 h1{
+    position: absolute;
+    width: 230px;
+    height: 54px;
+    left: 75px;
+    top: 79px;
+
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #fff;
+} 
+
+.block-9 hr{
+    border: 1px solid #fff;
+    width: 377px;
+    margin-top: 70px;
+}
+
+.block-9 h1::before{
+    content:url(Ellipse.png);
+    position: absolute;
+    right:244px;
+    bottom:26px;
+}
+
+
+.help .block-9 {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    top: 2887px;
+    left: 480px;
+    background:#DEE1FF;
+}
+
+.block-10 h1{
+    position: absolute;
+    width: 230px;
+    height: 54px;
+    left: 75px;
+    top: 79px;
+
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #fff;
+} 
+
+.block-10 hr{
+    border: 1px solid #fff;
+    width: 377px;
+    margin-top: 70px;
+}
+
+.block-10 h1::before{
+    content:url(Ellipse.png);
+    position: absolute;
+    right:244px;
+    bottom:26px;
+}
+
+
+.help .block-10 {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    top: 2887px;
+    left: 960px;
+    background:#8F00FF;
+}
+
+
+
+
+
+
+.help .block-11 {
+    position: absolute;
+    width: 480px;
+    height: 240px;
+    left: 0px;
+    top: 3389px;
+}
+
+.block-11 h2{
+    position: absolute;
+    left: 80px;
+    right: 29.38%;
+    top: 22.92%;
+    bottom: 62.08%;
+
+    font-family: 'Larsseit';
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+
+    color: #22356F;
+    font-weight: 500;
+} 
+
+.block-11  p{
+    position: absolute;
+    left: 80px;
+    right: 16.04%;
+    top: 49.58%;
+    bottom: 15.42%;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+    width: 274px;
+    text-align:left;
+}
+
+.help .block-12 {
+    position: absolute;
+    width: 480px;
+    height: 240px;
+    left: 480px;
+    top: 3389px;
+}
+
+.block-12 h2{
+    position: absolute;
+    left: 80px;
+    right: 29.38%;
+    top: 22.92%;
+    bottom: 62.08%;
+
+    font-family: 'Larsseit';
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+
+    color: #22356F;
+    font-weight: 500;
+} 
+
+.block-12  p{
+    position: absolute;
+    left: 80px;
+    right: 16.04%;
+    top: 49.58%;
+    bottom: 15.42%;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+    width: 274px;
+    text-align:left;
+}
+
+.help .block-13 {
+    position: absolute;
+    width: 480px;
+    height: 240px;
+    left: 960px;
+    top: 3389px;
+}
+
+.block-13 h2{
+    position: absolute;
+    left: 80px;
+    right: 29.38%;
+    top: 22.92%;
+    bottom: 62.08%;
+
+    font-family: 'Larsseit';
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+
+    color: #22356F;
+    font-weight: 500;
+} 
+
+.block-13  p{
+    position: absolute;
+    left: 80px;
+    right: 16.04%;
+    top: 49.58%;
+    bottom: 15.42%;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+    width: 274px;
+    text-align:left;
+}
+
+.help .block-14 {
+    position: absolute;
+    width: 480px;
+    height: 240px;
+    left: 0px;
+    top: 3629px;
+}
+
+.block-14 h2{
+    position: absolute;
+    left: 80px;
+    right: 29.38%;
+    top: 22.92%;
+    bottom: 62.08%;
+
+    font-family: 'Larsseit';
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+
+    color: #22356F;
+    font-weight: 500;
+} 
+
+.block-14  p{
+    position: absolute;
+    left: 80px;
+    right: 16.04%;
+    top: 49.58%;
+    bottom: 15.42%;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+    width: 274px;
+    text-align:left;
+}
+
+.help .block-15 {
+    position: absolute;
+    width: 480px;
+    height: 240px;
+    left: 480px;
+    top: 3629px;
+}
+
+.block-15 h2{
+    position: absolute;
+    left: 80px;
+    right: 29.38%;
+    top: 22.92%;
+    bottom: 62.08%;
+
+    font-family: 'Larsseit';
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+
+    color: #22356F;
+    font-weight: 500;
+} 
+
+.block-15  p{
+    position: absolute;
+    left: 80px;
+    right: 16.04%;
+    top: 49.58%;
+    bottom: 15.42%;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+    width: 274px;
+    text-align:left;
+}
+
+.help .block-16 {
+    position: absolute;
+    width: 480px;
+    height: 240px;
+    left: 960px;
+    top: 3629px;
+}
+
+.block-16 h2{
+    position: absolute;
+    left: 80px;
+    right: 29.38%;
+    top: 22.92%;
+    bottom: 62.08%;
+
+    font-family: 'Larsseit';
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+
+    color: #22356F;
+    font-weight: 500;
+} 
+
+.block-16  p{
+    position: absolute;
+    left: 80px;
+    right: 16.04%;
+    top: 49.58%;
+    bottom: 15.42%;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+    width: 274px;
+    text-align:left;
+}
+
+.popularity h4{
+    position: absolute;
+    width: 217px;
+    height: 20px;
+    left: 586px;
+    top: 4012px;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 12px;
+    color: #22356F;
+    font-weight: 400;
+    letter-spacing: 6%;
+}
+.popularity p{
+    position: absolute;
+    width: 676px;
+    height: 215px;
+    left: 586px;
+    top: 4257px;
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    color: #22356F;
+    font-weight: bold;
+}
+
+.popularity p span{
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    color: #6CD3E1;
+    font-weight: bold;
+}
+    
+.popularity img{
+    position: absolute;
+    width: 480px;
+    height: 800px;
+    left: 0px;
+    top: 3909px;
+}
+
+.popularity .support{
+    position: absolute;
+    width: 518px;
+    height: 43px;
+    left: 586px;
+    top: 4624px;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    border: none;
+    color: #FAB63E;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.smile .article{
+    background-image: url(strawberry.png);
+
+}
+
+
+.smile h4{
+    position: absolute;
+    width: 108px;
+    height: 14px;
+    left: 180px;
+    top: 4812px;
+    font-weight: 400;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+
+    color: #000;
+    
+}
+
+.smile h1{
+    position: absolute;
+    width: 704px;
+    height: 66px;
+    left: 180px;
+    top: 5056px;
+
+    font-family: 'Larsseit';
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+
+    color: #000;
+}
+
+.smile p{
+    position: absolute;
+    width: 579px;
+    height: 253px;
+    left: 180px;
+    top: 5250px;
+
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+
+    color: #000;
+}
+
+.smile .support-1{
+    position: absolute;
+    width: 518px;
+    height: 43px;
+    left: 180px;
+    top: 5600px;
+
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #62D0DF;
+    border: none;
+    cursor: pointer;
+    font-weight: 600px;
+    background: #FFFFFF;
+
+}
+
+
+
+.smile img{
+    position: absolute;
+    width: 600px;
+    height: 980px;
+    left: 900px;
+    top: 4709px;
+}
+
+.info .information-1 h2{
+    position: absolute;
+    width: 240px;
+    height: 48px;
+    left: 638px;
+    top: 5807px;
+
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #22356F;
+    text-align: left;
+}
+
+.info .information-1 p{
+    position: absolute;
+    width: 207px;
+    height: 115px;
+    left: 638px;
+    top: 5775px;
+
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.info .information-2 h2{
+    position: absolute;
+    width: 240px;
+    height: 48px;
+    left: 901px;
+    top: 5807px;
+
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+
+    color: #22356F;
+}
+
+.info .information-2 p{
+    position: absolute;
+    width: 207px;
+    height: 115px;
+    left: 901px;
+    top: 5775px;
+
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.info .information-2 a{
+    color: #006DFF;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+
+.information-2 a:hover{
+    color: #22356F;
+    transition:all 0.5s ease;
+    border-bottom: 1px solid black;
+}
+
+.information-1 a:visited{
+    color:#236bcf;
+    
+}
+
+.info .information-3 h2{
+    position: absolute;
+    width: 240px;
+    height: 48px;
+    left: 1163px;
+    top: 5807px;
+
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+
+    color: #22356F;
+}
+
+.info .information-3 p{
+    position: absolute;
+    width: 240px;
+    height: 115px;
+    left: 1163px;
+    top: 5775px;
+
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.info img{
+    position: absolute;
+    width: 570px;
+    height: 380px;
+    left: 0px;
+    top: 5690px;
+}
+
+
+
+
+
+
